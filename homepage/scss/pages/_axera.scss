@@ -1,0 +1,79 @@
+.navigation-axera {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: #107dff;
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    @media only screen and(max-width: 999px) {
+      font-size: 2rem;
+      padding: 0 40px;
+    }
+  }
+}
+.axera-company {
+  margin-top: 30px;
+
+  &__title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    @media only screen and(max-width: 999px) {
+      font-size: 1.8rem;
+    }
+  }
+  &__image {
+    // padding: 20px 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 150px;
+    padding: 30px 30px !important;
+    width: 150px;
+    height: 150px;
+  }
+  &__vitri {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  &__note {
+    font-size: 16px;
+  }
+}
+.list-1 {
+  text-align: center;
+  padding: 0 85px;
+  @media only screen and(max-width: 999px) {
+    padding: 0 125px;
+  }
+}
+
+.axera-content {
+  margin-top: 30px;
+
+  &__title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    @media only screen and(max-width: 999px) {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+  &__desc {
+    font-size: 16px;
+    color: #888888;
+    text-align: center;
+    @media only screen and(max-width: 999px) {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+  &__hr {
+    margin: 40px 150px 40px 150px;
+    height: 2px !important;
+  }
+}

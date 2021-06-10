@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTH Digital Marketing</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- font chu -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="carousel/css/owl.theme.default.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/carousel/js/jquery.min.js"></script>
+    <script src="carousel/js/owl.carousel.min.js"></script>
+    <script src="/carousel/js/script.js"></script>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="stylebig.css" />
+  </head>
+  <body>
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 h-25 navbar__menu">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="./images/privacy/logo.png" alt="logo_HTH" />
+          </a>
+
+          <label for="nav-mobile-input" class="nav__bars-btn">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="bars"
+              class="svg-inline--fa fa-bars fa-w-14"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 
+              60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 
+              16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 
+              7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 
+              0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              ></path>
+            </svg>
+          </label>
+          <input
+            type="checkbox"
+            hidden
+            name=""
+            class="nav__input"
+            id="nav-mobile-input"
+          />
+
+          <label for="nav-mobile-input" class="nav__overlay"></label>
+
+          <div class="nav__mobile">
+            <label for="nav-mobile-input" class="nav__mobile-close">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="far"
+                data-icon="times-circle"
+                class="svg-inline--fa fa-times-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"
+                ></path>
+              </svg>
+            </label>
+            <ul class="nav__mobile-list">
+              <li>
+                <a class="nav__mobile-link" href="index.html">HOMEPAGE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="#">SERVICE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="ecommerce.html">E-COMMERCE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="resources.html">RESOURCES</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link nav-link__version" href="demo.html"
+                  >DEMO VERSION</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="flex-grow: initial"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link__link"
+                  aria-current="page"
+                  href="index.html"
+                  >HOMEPAGE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" aria-current="page" href="#"
+                  >SERVICE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" href="ecommerce.html"
+                  >E-COMMERCE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" href="resources.html"
+                  >RESOURCES</a
+                >
+              </li>
+              <li class="nav-item nav">
+                <a class="nav-link nav-link__version" href="demo.html"
+                  >DEMO VERSION</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- FOOTER  -->
+
+    <div class="main" style="margin-top: 60px">
+      <section class="ceo">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-12">
+              <div class="leftceo">
+                <h3 class="ceo__title">
+                  Cải tiến website với việc <br />
+                  sử dụng công cụ PTS
+                </h3>
+                <p class="ceo__desc">
+                  Lorem ipsum dolor sit amet consectetur <br />
+                  adipisicing elit. Cupiditate, iste illo dolorum <br />incidunt
+                  explicabo molestias eos
+                </p>
+                <div class="card" style="width: 30rem">
+                  <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <p class="card-text ceo__desc">
+                      <i
+                        class="fas fa-quote-left"
+                        style="
+                          font-size: 18px;
+                          color: black;
+                          padding-right: 5px;
+                        "
+                      ></i>
+                      Hiểu toàn bộ vòng đời của khách hàng trong PTS - từ khám
+                      phá đến mua hàng là yếu tố quan trọng để tăng chuyển đổi.
+                    </p>
+                    <p class="card-link ceo__ceo">CEO Nguyễn Hữu Tiến</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-12">
+              <div class="rightceo">
+                <div class="card rightceo__card">
+                  <div class="card-body rightceo__body">
+                    <h5 class="card-title rightceo__title">
+                      Đăng ký nhận bảng dùng thử
+                    </h5>
+
+                    <input type="text" placeholder="Họ và tên*" />
+
+                    <input type="text" placeholder="Số điện thoại*" />
+
+                    <input type="text" placeholder="Email*" />
+
+                    <input
+                      type="text"
+                      placeholder="Nhập liên kết website của bạn"
+                    />
+
+                    <button class="rightceo__button">Nhận bản dùng thử</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chiendich">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-12">
+              <div class="chiendichleft">
+                <h3 class="chiendich__title">
+                  Thông tin chi tiết theo hướng dữ liệu với <br />
+                  tính năng Phân đoạn mạnh mẽ và <br />
+                  Nhắm mục tiêu chính xác
+                </h3>
+                <div class="chiendich__desc1">
+                  <p class="chiendich__bold">
+                    Dựa trên người dùng, không dựa trên phiên
+                  </p>
+                  <p class="chiendich__desc">
+                    Nhận dữ liệu có thể kiểm tra, có thể hành động ở cấp <br />
+                    người dùng để cải thiện thông tin chi tiết.
+                  </p>
+                </div>
+                <div class="chiendich__desc2">
+                  <p class="chiendich__bold">Tạo chiến dịch thông minh</p>
+                  <p class="chiendich__desc">
+                    Xây dựng đối tượng có ngoại hình hiệu quả <br />
+                    bằng cách xác định những khách hàng tốt <br />
+                    nhất của bạn và nhắm mục tiêu những <br />
+                    khách hàng tiềm năng mới giống như họ.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-12">
+              <img src="./images/demo_version/2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="follow">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-12">
+              <img src="./images/demo_version/3.png" alt="" />
+            </div>
+            <div class="col-xl-6 col-12">
+              <div class="chiendichleft">
+                <div class="chiendich__desc1">
+                  <p class="chiendich__bold">
+                    Theo dõi toàn bộ hành trình của người dùng
+                  </p>
+                  <p class="chiendich__desc">
+                    Sử dụng kênh để dễ dàng xem người dùng <br />
+                    tiến triển như thế nào qua trang web của bạn.
+                  </p>
+                </div>
+                <div class="chiendich__desc2">
+                  <p class="chiendich__bold">Phân tích đối tượng của bạn</p>
+                  <p class="chiendich__desc">
+                    Sử dụng thông tin chi tiết mạnh mẽ để cung<br />
+                    cấp cho khách hàng của bạn chính xác những<br />
+                    gì họ muốn.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- banner  -->
+    <div class="container">
+      <section class="banner">
+        <div class="h-100 d-flex align-items-center">
+          <div class="col-xl-8 text-center">
+            <div class="container">
+              <div class="feature__info feature__one">
+                <h3 class="feature__title">
+                  Tìm hiểu cách PTS có thể giúp phát triển doanh nghiệp của bạn.
+                </h3>
+                <p class="feature__desc">
+                  Thu hút nhiều khách hàng hơn, đưa ra quyết định thông minh hơn
+                  và thúc đẩy lợi nhuận của bạn.
+                </p>
+                <ul class="feature-intro__list">
+                  <button class="btn__research btn">
+                    Tìm hiểu ngay qua bản dùng thử >
+                    <!-- <i class="fa fa-angle-right"></i> -->
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end banner -->
+    <!-- FEEDBACK  -->
+    <section class="feedback">
+      <div class="container feedback__list">
+        <div>
+          <h2 class="feedback__title">Khách hàng của chúng tôi</h2>
+        </div>
+
+        <section class="section bg-light">
+          <div class="container">
+            <!-- /OWL CAROUSEL -->
+            <div class="row">
+              <div class="major-carousel js-carousel owl-carousel">
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">NH</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /END OWL CAROUSEL -->
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- FOOTER  -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row" style="margin-top: 50px">
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia phân tích</h2>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/1.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/2.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footerr__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/3.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia chuyên ngành</h2>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/1.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/2.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footerr__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/3.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia liên quan</h2>
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Website cho doanh nghiệp</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Facebook Marketing</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Google Marketing</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                SEO - Toi uu hoa cong cu tim kiem
+              </div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Digital Performace Marketing</div>
+              <div class="col-3 footer__number">
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Thuong mai dien tu</div>
+              <div class="col-3 footer__number">
+                <p>45</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">He thong Affiliate</div>
+              <div class="col-3 footer__number">
+                <p>15</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                CRM - Quan tri quan he khach hang
+              </div>
+              <div class="col-3 footer__number">
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">CX - Trai nghiem khach hang</div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                CJM - Ban do hanh trinh khach hang
+              </div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+          </div>
+          <hr class="footer__hr" />
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-12">
+            <img class="footer__logo" src="images/privacy/logo.png" alt="" />
+          </div>
+          <div class="col-xl-6 col-12 footer__nameend">
+            <h4>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+              maiores aperiam at laborum quae expedita architecto excepturi
+              laudantium
+            </h4>
+          </div>
+
+          <div class="col-xl-3 col-12 footer__nameend">
+            <h3>
+              Follow Us :
+              <i class="fa fa-address-book" aria-hidden="true"></i>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="end">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-12 end__list">
+              Designed by HTH Digital 2020
+            </div>
+            <div class="col-xl-4 col-12 end__list">
+              <a href="term.html" class="end__list">Term</a>
+              <a href="privacy.html" class="end__list">Privacy</a>
+              <a href="support.html" class="end__list">Support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END FOOTER  -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

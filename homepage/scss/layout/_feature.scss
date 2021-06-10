@@ -1,0 +1,62 @@
+.banner {
+  background-image: url('images/privacy/banner.PNG');
+  height: 600px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media only screen and (max-width: 999px) {
+    padding-top: 150px;
+  }
+}
+.feature {
+  padding-top: 12rem;
+
+  &__imagePTS {
+    padding-top: 50px;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    color: $text-color;
+    @media only screen and(max-width: 999px) {
+      font-size: 20px;
+    }
+  }
+  &__desc {
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    color: $text-gray;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    i {
+      color: $text-color;
+      margin-right: 0.5rem;
+    }
+    @media only screen and(max-width: 999px) {
+      font-size: 15px;
+    }
+  }
+  &-intro__list {
+    font-weight: 300;
+    font-size: 14px !important;
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+  }
+}
+.feature__one {
+  padding: 0px 200px;
+  @media only screen and(max-width: 999px) {
+    padding: 0px 40px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+}
+.feature__two {
+  padding-left: 8rem;
+}
+.feature__three {
+  padding-right: 8rem;
+}

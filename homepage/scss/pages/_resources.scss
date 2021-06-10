@@ -1,0 +1,107 @@
+.navigation__resources {
+  padding-top: 150px;
+  background-color: #107dff;
+  @media only screen and(max-width: 999px) {
+    padding-top: 140px;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    @media only screen and(max-width: 999px) {
+      font-size: 2rem;
+      padding: 0 40px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 40px;
+    @media only screen and(max-width: 999px) {
+      font-size: 1.5rem;
+      padding: 0 40px;
+    }
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: #f0f7ff;
+    @media only screen and(max-width: 999px) {
+      font-size: 1.2rem;
+      padding: 0 40px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.axera {
+  margin-top: 50px;
+  &__image {
+    @media only screen and(max-width: 999px) {
+      padding: 0 45px;
+    }
+  }
+  &__left {
+    h3 {
+      font-weight: 600;
+    }
+    p {
+      font-size: 20px;
+    }
+    @media only screen and(max-width: 999px) {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+  &__right {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: end;
+    @media only screen and(max-width: 999px) {
+      font-size: 1.2rem;
+
+      //   margin-top: 10px;
+      text-align: center;
+    }
+  }
+  &__body {
+    &-image {
+      @media only screen and(max-width: 999px) {
+        padding: 0 45px;
+      }
+    }
+    &-desc {
+      font-size: 20px;
+      margin-top: 20px;
+      color: #888888;
+      @media only screen and(max-width: 999px) {
+        font-size: 1.2rem;
+        padding: 0 40px;
+        margin-top: 10px;
+      }
+    }
+    &-name {
+      margin-top: 40px;
+    }
+  }
+}
+
+.axera-list {
+  margin-top: 40px;
+  &__desc {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #888888;
+    @media only screen and(max-width: 999px) {
+      font-size: 1rem;
+      margin: 0 auto;
+    }
+  }
+}

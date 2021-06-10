@@ -1,0 +1,38 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: white !important;
+  background-color: #107dff;
+  padding: 1.3rem 4rem;
+  display: inline-block;
+  transition: color 0.25s linear, border 0.25s linear; //giup hover nhanh hon
+  &:hover {
+    color: black !important;
+    background-color: #107dff;
+  }
+  &__research {
+    min-width: 180px;
+    height: 50px;
+    border-radius: 10rem;
+    font-size: 15px;
+    @media only screen and(max-width: 999px) {
+      font-size: 10px;
+    }
+  }
+  &--rounded {
+    border-radius: 5rem;
+    i {
+      margin-left: 0.3rem;
+    }
+  }
+  &--primary {
+    background-color: $text-color;
+
+    &.has-shadow {
+      box-shadow: 0 10px 35px -15px $primary-color;
+    }
+  }
+}

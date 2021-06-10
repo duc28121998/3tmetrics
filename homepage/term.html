@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTH Digital Marketing</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- font chu -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="carousel/css/owl.theme.default.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/carousel/js/jquery.min.js"></script>
+    <script src="carousel/js/owl.carousel.min.js"></script>
+    <script src="/carousel/js/script.js"></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="stylebig.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 h-25 navbar__menu">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="./images/privacy/logo.png" alt="logo_HTH" />
+          </a>
+
+          <label for="nav-mobile-input" class="nav__bars-btn">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="bars"
+              class="svg-inline--fa fa-bars fa-w-14"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 
+              60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 
+              16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 
+              7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 
+              0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              ></path>
+            </svg>
+          </label>
+          <input
+            type="checkbox"
+            hidden
+            name=""
+            class="nav__input"
+            id="nav-mobile-input"
+          />
+
+          <label for="nav-mobile-input" class="nav__overlay"></label>
+
+          <div class="nav__mobile">
+            <label for="nav-mobile-input" class="nav__mobile-close">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="far"
+                data-icon="times-circle"
+                class="svg-inline--fa fa-times-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"
+                ></path>
+              </svg>
+            </label>
+            <ul class="nav__mobile-list">
+              <li>
+                <a class="nav__mobile-link nav-link__version" href="index.html"
+                  >HOMEPAGE</a
+                >
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="#">SERVICE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="ecommerce.html">E-COMMERCE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="resources.html">RESOURCES</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="demo.html">Demo Version</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="flex-grow: initial"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-link__version" href="index.html"
+                  >HOMEPAGE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" aria-current="page" href="#"
+                  >SERVICE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" href="ecommerce.html"
+                  >E-COMMERCE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" href="resources.html"
+                  >RESOURCES</a
+                >
+              </li>
+              <li class="nav-item nav">
+                <a class="nav-link nav-link__link" href="demo.html"
+                  >DEMO VERSION</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end navbar -->
+    <section class="start catelogy">
+      <div class="container">
+        <div class="row text-justify">
+          <p class="start__text catelogy__text">
+            Các điều khoản và điều kiện sau (“Điều khoản sử dụng” này) chi phối
+            tất cả việc sử dụng các trang web kissmetrics.io và
+            app.3tmetrics.com, bao gồm cả Blog 3tmetrics (3tmetrics.io/blog))
+            (“Trang web”) và tất cả nội dung , dịch vụ, tính năng, hoạt động và
+            sản phẩm có sẵn tại hoặc thông qua Trang web, bao gồm nhưng không
+            giới hạn ở dịch vụ phân tích trang web, dịch vụ chuyển đổi và dịch
+            vụ tự động hóa chiến dịch (“Dịch vụ phân tích”, “Dịch vụ tương tác”
+            và “Khách hàng Dịch vụ tự động hóa tương tác ”, cùng với tất cả nội
+            dung, dịch vụ, tính năng, hoạt động và sản phẩm khác có sẵn thông
+            qua Trang web ở đây được gọi là“ Dịch vụ ”). Thuật ngữ “bạn” hoặc
+            “của bạn” bao gồm bất kỳ công ty con, chi nhánh, nhân viên nào của
+            bạn. Dịch vụ được sở hữu và điều hành bởi Metrics Enterprises, Inc.,
+            dba Kissmetrics (còn được gọi là “chúng tôi”, “của chúng tôi” hoặc
+            “chúng tôi”). Vui lòng đọc kỹ Điều khoản Sử dụng này trước khi sử
+            dụng Dịch vụ.
+            <br />
+            <br />
+            BẰNG VIỆC SỬ DỤNG HOẶC TRUY CẬP DỊCH VỤ, BẠN ĐỒNG Ý CHỊU TRÁCH NHIỆM
+            BỞI CÁC ĐIỀU KHOẢN SỬ DỤNG NÀY VÀ TẤT CẢ CÁC ĐIỀU KHOẢN, CHÍNH SÁCH
+            VÀ HƯỚNG DẪN NÀY CÓ TRONG ĐIỀU KHOẢN SỬ DỤNG BẰNG CÁCH THAM KHẢO,
+            BAO GỒM, NHƯNG KHÔNG GIỚI HẠN ĐỐI VỚI CÁC ĐIỀU KHOẢN, CHÍNH SÁCH
+            RIÊNG TƯ, “THUỘC TÍNH NÀY” . BẰNG VIỆC SỬ DỤNG HOẶC TRUY CẬP CÁC
+            DỊCH VỤ, BẠN TUYÊN BỐ RẰNG BẠN CÓ ÍT NHẤT 13 TUỔI. THỎA THUẬN NÀY
+            RẮN RẮN HỢP PHÁP VÀ ĐIỀU KIỆN SỬ DỤNG DỊCH VỤ CỦA BẠN. Nếu bạn không
+            đồng ý với tất cả các điều khoản và điều kiện của Thỏa thuận này,
+            bạn phải ngừng sử dụng Dịch vụ.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="catelogy">
+      <div class="container">
+        <div class="row text-justify">
+          <h3 class="catelogy__title">1. Đăng ký và truy cập tài khoản</h3>
+          <br />
+          <br />
+          <p class="catelogy__text">
+            Để đăng ký Dịch vụ và tạo tài khoản, bạn (bao gồm bất kỳ đại lý nào
+            do bạn chỉ định hoạt động thay mặt cho bạn) phải hoàn tất quá trình
+            đăng ký bằng cách cung cấp 3tmetrics với thông tin được yêu cầu bao
+            gồm tên, địa chỉ email, điện thoại, tên công ty, trang web của công
+            ty, và mật khẩu. Bạn đồng ý cung cấp cho chúng tôi thông tin đầy đủ
+            và chính xác khi bạn đăng ký Dịch vụ và luôn cập nhật những thông
+            tin đó.
+          </p>
+          <br />
+          <br />
+          <p class="catelogy__text">
+            Bạn phải bảo vệ tên người dùng và mật khẩu của mình và hoàn toàn
+            chịu trách nhiệm về các hoạt động xảy ra trong hoặc thông qua tài
+            khoản của bạn, bao gồm các hoạt động do bên thứ ba khởi xướng, cho
+            dù các hoạt động đó có được bạn cho phép hay không. Nếu bạn cho phép
+            bên thứ ba thay mặt bạn truy cập Dịch vụ, bạn phải đảm bảo rằng bên
+            thứ ba đó bị ràng buộc và tuân theo các điều khoản của Thỏa thuận
+            này. Bạn đồng ý thông báo cho Kissmetrics ngay lập tức về mọi hành
+            vi sử dụng trái phép tài khoản của bạn hoặc bất kỳ vi phạm bảo mật
+            nào khác liên quan đến tài khoản của bạn hoặc việc bạn sử dụng Dịch
+            vụ.
+          </p>
+          <br />
+          <br />
+          <p class="catelogy__text">
+            Kissmetrics có thể truy cập vào tài khoản của bạn hoặc thông tin
+            được liên kết với tài khoản của bạn, để cung cấp hỗ trợ hoặc bảo
+            trì, vì các lý do liên quan đến bảo mật hoặc bất kỳ mục đích kinh
+            doanh nào khác. Bạn thừa nhận và đồng ý với quyền truy cập đó.
+          </p>
+          <br />
+          <br />
+
+          <hr class="catelogy__border-bottom" />
+        </div>
+      </div>
+    </section>
+
+    <section class="catelogy">
+      <div class="container">
+        <div class="row text-justify">
+          <h3 class="catelogy__title">2. Dùng thử miễn phí</h3>
+          <br />
+          <br />
+          <p class="catelogy__text">
+            Bạn sẽ có tùy chọn nhập thông tin thanh toán và đăng ký trong thời
+            gian gia hạn này. Nếu bạn không làm như vậy, tài khoản của bạn sẽ bị
+            hủy vào cuối thời gian gia hạn.
+          </p>
+          <br />
+          <br />
+          <p class="catelogy__text">
+            Bạn có thể hủy Gói của mình bất kỳ lúc nào trong Thời gian Dùng thử
+            Miễn phí bằng cách thực hiện theo các bước được mô tả trong phần 2.7
+            (“Hủy Tài khoản”). Sau khi hủy tài khoản, bạn sẽ ngay lập tức mất
+            tất cả quyền truy cập vào Dịch vụ và bất kỳ dữ liệu hoặc thông tin
+            nào được lưu trữ trong tài khoản của bạn (xem Phần 11 (“Thời hạn và
+            Chấm dứt”) để biết thêm chi tiết).
+          </p>
+          <p class="catelogy__text">
+            ỳ dữ liệu hoặc thông tin nào được lưu trữ trong tài khoản của bạn
+            (xem Phần 11 (“Thời hạn và Chấm dứt”) để biết thêm chi tiết).
+          </p>
+          <hr class="catelogy__border-bottom" />
+        </div>
+      </div>
+    </section>
+    <section class="catelogy">
+      <div class="container">
+        <div class="row text-justify">
+          <h3 class="catelogy__title">4. Đối với dữ liệu của khách hàng :</h3>
+          <br />
+          <br />
+          <p class="catelogy__text">
+            Giữa bạn và 3tmetrics, bạn sẽ giữ quyền sở hữu bất kỳ thông tin, dữ
+            liệu và thống kê nào mà 3tmetrics thu được từ trang web của bạn,
+            chẳng hạn như dữ liệu thô và tệp nhật ký được tạo bởi và / hoặc được
+            cung cấp cho Dịch vụ.
+
+            <br />
+            <br />
+            Việc sử dụng và tiết lộ thông tin mà chúng tôi có được phải tuân
+            theo: (1) Chính sách Bảo mật có hiệu lực tại thời điểm thông tin đó
+            được thu thập hoặc (2) bất kỳ Chính sách Bảo mật nào sau đó mà bạn
+            có thông báo mang tính xây dựng.
+          </p>
+
+          <p class="catelogy__text">
+            Theo đây, bạn cấp cho 3tmetrics quyền và giấy phép miễn phí bản
+            quyền, không độc quyền, không thể thu hồi để truy cập (các) trang
+            web đã đăng ký của bạn và truy cập và ghi nhật ký (a) bất kỳ thông
+            tin nào liên quan đến hành động, mục nhập hoặc hoạt động của người
+            dùng trên web của bạn (các) trang, (b) bất kỳ thông tin nào được gửi
+            cho bạn bởi trình duyệt web của người dùng liên quan đến các hoạt
+            động web của người dùng ngay trước khi truy cập (các) trang web của
+            bạn (ví dụ: thông tin URL và thông tin tiêu đề HTTP) và / hoặc (c)
+            bất kỳ dữ liệu hoặc thông tin nào khác mà bạn cung cấp cho
+            Kissmetrics (gọi chung là “Dữ liệu Khách hàng”) nhằm mục đích (i)
+            cung cấp cho bạn các báo cáo và các chức năng khác liên quan đến
+            Dịch vụ; (ii) phân tích và cải thiện Dịch vụ; và / hoặc (iii) tổng
+            hợp dữ liệu tổng hợp thu được từ việc bạn sử dụng Dịch vụ để tổng
+            hợp số liệu thống kê, số liệu, thông tin chi tiết và dữ liệu xu
+            hướng chung về Dịch vụ cho các mục đích tiếp thị và quảng cáo của
+            3tmetrics. Thông tin này sẽ chỉ được trình bày dưới dạng tổng hợp và
+            chúng tôi sẽ không chia sẻ dữ liệu trang web cụ thể nhận dạng bạn
+            hoặc khách truy cập của bạn mà không có sự cho phép của bạn.
+          </p>
+          <p class="catelogy__text">
+            Bạn tuyên bố và đảm bảo rằng bạn có tất cả các quyền, giấy phép và
+            sự đồng ý cần thiết để cấp phép Dữ liệu khách hàng cho Kissmetrics
+            theo các điều khoản này, đồng thời tuyên bố và đảm bảo rằng giấy
+            phép này không vi phạm quyền của bất kỳ bên thứ ba nào hoặc vi phạm
+            bất kỳ luật hoặc quy định hiện hành nào.
+          </p>
+          <br />
+          <br />
+          <hr class="catelogy__border-bottom" />
+        </div>
+      </div>
+    </section>
+
+    <!-- banner  -->
+    <div class="container">
+      <section class="banner">
+        <div class="h-100 d-flex align-items-center">
+          <div class="col-xl-8 text-center">
+            <div class="container">
+              <div class="feature__info feature__one">
+                <h3 class="feature__title">
+                  Tìm hiểu cách PTS có thể giúp phát triển doanh nghiệp của bạn.
+                </h3>
+                <p class="feature__desc">
+                  Thu hút nhiều khách hàng hơn, đưa ra quyết định thông minh hơn
+                  và thúc đẩy lợi nhuận của bạn.
+                </p>
+                <ul class="feature-intro__list">
+                  <button class="btn__research btn">
+                    Tìm hiểu ngay qua bản dùng thử >
+                    <!-- <i class="fa fa-angle-right"></i> -->
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end banner -->
+    <!-- FEEDBACK  -->
+    <section class="feedback">
+      <div class="container">
+        <div>
+          <h2 class="feedback__title">Khách hàng của chúng tôi</h2>
+        </div>
+
+        <section class="section bg-light">
+          <div class="container">
+            <!-- /OWL CAROUSEL -->
+            <div class="row">
+              <div class="major-carousel js-carousel owl-carousel">
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">HN</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="media media-custom d-block text-left">
+                    <div class="row">
+                      <div class="col-8 col-md-2">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                      <div class="col-12 col-md-10">
+                        <h4 class="text-desc">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Dignissimos cum aperiam quidem quae quibusdam
+                          obcaecati provident doloribus. Velit minima,
+                          accusantium eaque reiciendis et.
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="media-body">
+                      <h3 class="text-black mt-0">
+                        <a href="#" class="text-black text-black__NH">NH</a>
+                        <span class="age">ASC Company</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /END OWL CAROUSEL -->
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- FOOTER  -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row" style="margin-top: 50px">
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia phân tích</h2>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/1.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/2.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footerr__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/3.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia chuyên ngành</h2>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/1.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/2.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footerr__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/3.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia liên quan</h2>
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Website cho doanh nghiệp</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Facebook Marketing</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Google Marketing</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                SEO - Toi uu hoa cong cu tim kiem
+              </div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Digital Performace Marketing</div>
+              <div class="col-3 footer__number">
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Thuong mai dien tu</div>
+              <div class="col-3 footer__number">
+                <p>45</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">He thong Affiliate</div>
+              <div class="col-3 footer__number">
+                <p>15</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                CRM - Quan tri quan he khach hang
+              </div>
+              <div class="col-3 footer__number">
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">CX - Trai nghiem khach hang</div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                CJM - Ban do hanh trinh khach hang
+              </div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+          </div>
+          <hr class="footer__hr" />
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-12">
+            <img class="footer__logo" src="images/privacy/logo.png" alt="" />
+          </div>
+          <div class="col-xl-6 col-12 footer__nameend">
+            <h4>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+              maiores aperiam at laborum quae expedita architecto excepturi
+              laudantium
+            </h4>
+          </div>
+
+          <div class="col-xl-3 col-12 footer__nameend">
+            <h3>
+              Follow Us :
+              <i class="fa fa-address-book" aria-hidden="true"></i>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="end">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-12 end__list">
+              Designed by HTH Digital 2020
+            </div>
+            <div class="col-xl-4 col-12 end__list">
+              <a href="term.html" class="end__list">Term</a>
+              <a href="privacy.html" class="end__list">Privacy</a>
+              <a href="support.html" class="end__list">Support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END FOOTER  -->
+  </body>
+</html>
