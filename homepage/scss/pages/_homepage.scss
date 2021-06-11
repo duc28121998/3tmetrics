@@ -76,6 +76,10 @@
     padding-top: 70px;
     padding-left: 0px;
   }
+  @media only screen and (min-width: 1920px) {
+    padding-top: 230px;
+    padding-left: 300px;
+  }
 
   &__title {
     font-size: 3rem;

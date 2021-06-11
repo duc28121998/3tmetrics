@@ -562,6 +562,12 @@ body {
     padding-left: 0px;
   }
 }
+@media only screen and (min-width: 1920px) {
+  .content1 {
+    padding-top: 230px;
+    padding-left: 300px;
+  }
+}
 .content1__title {
   font-size: 3rem;
   margin-bottom: 2.3 rem;
