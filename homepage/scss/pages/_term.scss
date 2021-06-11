@@ -40,49 +40,7 @@ body {
     height: auto;
   }
 }
-.fixed-top {
-  background-image: url('./images/z.PNG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  // padding-bottom: 30px;
-}
-.navbar {
-  &__menu {
-    // width: 100%;
-    // background-image: url('./images/z.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-.nav-item {
-  margin-right: 40px !important;
-}
-.nav-link {
-  &__link {
-    font-size: 1.6rem;
-    color: white !important;
-    transition: color 0.25s linear, border 0.25s linear; //giup hover nhanh hon
-    &:hover {
-      color: black !important;
-    }
-  }
-  &__version {
-    height: 50px;
-    width: 150px;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    color: #107dff;
-    background-color: white;
-    border-radius: 30px;
-    padding-top: 15px;
-    transition: color 0.25s linear, border 0.25s linear; //giup hover nhanh hon
-    &:hover {
-      color: black;
-      background-color: yellow;
-    }
-  }
-}
+
 .start {
   padding-top: 250px;
 

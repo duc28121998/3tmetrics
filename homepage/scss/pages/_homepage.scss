@@ -69,9 +69,9 @@
   }
 }
 
-.content {
+.content1 {
   padding-top: 200px;
-  padding-left: 40px;
+  padding-left: 110px;
   @media only screen and (max-width: 999px) {
     padding-top: 70px;
     padding-left: 0px;
@@ -95,7 +95,57 @@
     color: #888888;
     font-size: 1.6rem;
     line-height: 1.8;
+    i {
+      color: #107dff;
+    }
+    @media only screen and (max-width: 999px) {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  &__button {
+    border-radius: 30px;
 
+    @media only screen and (max-width: 999px) {
+      text-align: center;
+      margin-left: 90px;
+      font-size: 1.3rem !important;
+    }
+  }
+  &__image {
+    @media only screen and (max-width: 999px) {
+      // padding-top: 40px !important;
+    }
+  }
+}
+.content {
+  padding-top: 100px;
+  padding-left: 160px;
+  @media only screen and (max-width: 999px) {
+    padding: 10px 40px;
+  }
+
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 2.3 rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #107dff;
+
+    @media only screen and (max-width: 999px) {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  &__desc {
+    font-weight: 400;
+    margin-bottom: 2.3rem;
+    color: #888888;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    i {
+      color: #107dff;
+    }
     @media only screen and (max-width: 999px) {
       font-size: 1.5rem;
       text-align: center;
@@ -121,14 +171,134 @@
   &__card {
     border: 2px solid #107dff;
     border-radius: 10px;
+    img {
+      padding: 40px;
+      @media only screen and (max-width: 999px) {
+        padding: 10px;
+      }
+    }
   }
   &__text {
     color: #107dff;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    padding: 5px 40px 40px 40px;
     @media only screen and (max-width: 999px) {
       font-size: 1rem;
       padding: 0 5px;
+    }
+  }
+}
+
+.content2 {
+  padding-top: 80px;
+  padding-left: 20px;
+  @media only screen and (max-width: 999px) {
+    padding: 10px 40px;
+  }
+
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 2.3 rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #107dff;
+
+    @media only screen and (max-width: 999px) {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  &__desc {
+    font-weight: 400;
+    margin-bottom: 2.3rem;
+    color: #888888;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    i {
+      color: #107dff;
+    }
+    @media only screen and (max-width: 999px) {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  &__button {
+    border-radius: 30px;
+
+    @media only screen and (max-width: 999px) {
+      text-align: center;
+      margin-left: 90px;
+      font-size: 1.3rem !important;
+    }
+  }
+  &__image {
+    padding-top: 80px;
+    @media only screen and (max-width: 999px) {
+      padding-top: 0px;
+    }
+  }
+}
+.dangky {
+  background-color: #107dff;
+  &__size {
+    padding: 50px 350px;
+    text-align: center;
+    @media only screen and (max-width: 999px) {
+      padding: 20px 40px;
+    }
+  }
+  &__title {
+    color: white;
+    font-weight: 600;
+    font-size: 2.7rem;
+    @media only screen and (max-width: 999px) {
+      font-size: 2rem;
+    }
+  }
+  &__nhap {
+    padding-top: 30px;
+
+    &-input {
+      border-radius: 40px;
+      border: none;
+      outline: none;
+      text-align: center;
+      padding: 20px 130px 20px 130px;
+      margin-right: 10px;
+      font-size: 15px;
+      color: #666;
+      font-style: italic;
+      &:hover {
+        background-color: none;
+      }
+      @media only screen and (max-width: 999px) {
+        padding: 12px;
+      }
+    }
+    button {
+      background-color: rgb(255, 230, 0) !important;
+      // color: black;
+      border: none;
+      border-radius: 40px;
+      padding: 17px 60px 17px 60px;
+      @media only screen and (max-width: 999px) {
+        padding: 7px 20px 7px 20px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  &__desc {
+    color: rgb(240, 236, 236);
+    font-size: 1.5rem;
+    padding-top: 30px;
+    @media only screen and (max-width: 999px) {
+      padding: 30px;
+      margin-bottom: 2px;
+    }
+    span {
+      color: white;
+      font-weight: bold;
     }
   }
 }

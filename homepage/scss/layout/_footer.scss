@@ -1,16 +1,23 @@
 .footer {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #107dff;
   color: white;
   &__title {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 13px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     @media only screen and(max-width:999px) {
       height: 50px;
       width: auto;
       font-size: 12px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
   }
   &__mobie {
+    font-family: Arial, Helvetica, sans-serif;
     @media only screen and(max-width:999px) {
       width: 200px;
       height: auto;
@@ -21,7 +28,11 @@
     padding: 0px 17px;
   }
   &__content {
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 14px;
+    @media only screen and(max-width:999px) {
+      font-size: 8px;
+    }
   }
   &__list {
     padding: 0 0;
@@ -30,9 +41,20 @@
     padding: 0px 0px;
     --bs-gutter-x: 0rem;
   }
+  &__name {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(248, 248, 248, 0.863);
+    @media only screen and(max-width:999px) {
+      font-size: 8px;
+    }
+  }
   &__number {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
+    @media only screen and(max-width:999px) {
+      font-size: 10px;
+    }
   }
   &__hr {
     // width: 100px;
@@ -44,6 +66,12 @@
     margin-bottom: 50px;
     // height: 3px !important;
     border: 1px solid white;
+    margin-left: 16px;
+    @media only screen and(max-width:999px) {
+      margin-left: 0px;
+      width: 90%;
+      margin-left: 10px;
+    }
   }
   &__logo {
     padding-bottom: 35px;
@@ -53,6 +81,23 @@
     }
   }
   &__nameend {
+    h4{
+      margin-top: 60px;
+    }
+    h3 {
+      margin-top: 30px;
+      margin-left: 30px;
+      font-size: 25px;
+      margin-bottom: 10px;
+      font-weight: 400px;
+    }
+    i {
+      font-size: 25px;
+      margin-left: 30px;
+      @media only screen and(max-width:999px) {
+        font-size: 15px;
+      }
+    }
     h4,
     h3,
     i {
@@ -60,16 +105,18 @@
         text-align: center;
         padding: 0 40px;
         justify-content: center;
-        padding-top: 10px;
+        padding-top: 0px;
+        margin-left: 0px;
       }
     }
   }
 }
 .end {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #0f64c9;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 12px;
+  font-size: 16px;
   color: white;
   &__list {
     color: white;
