@@ -73,8 +73,8 @@
   padding-top: 200px;
   padding-left: 110px;
   @media only screen and (max-width: 999px) {
-    padding-top: 70px;
     padding-left: 0px;
+    padding: 70px 40px;
   }
   @media only screen and (min-width: 1920px) {
     padding-top: 230px;
@@ -112,7 +112,6 @@
 
     @media only screen and (max-width: 999px) {
       text-align: center;
-      margin-left: 90px;
       font-size: 1.3rem !important;
     }
   }
@@ -131,7 +130,7 @@
 
   &__title {
     font-size: 3rem;
-    margin-bottom: 2.3 rem;
+    margin-bottom: 2.7rem;
     line-height: 1.3;
     font-weight: 600;
     color: #107dff;
@@ -160,8 +159,9 @@
 
     @media only screen and (max-width: 999px) {
       text-align: center;
-      margin-left: 90px;
+      // margin-left: 90px;
       font-size: 1.3rem !important;
+      // padding: 1.3rem 4rem;
     }
   }
   &__image {
@@ -197,8 +197,10 @@
 .content2 {
   padding-top: 80px;
   padding-left: 20px;
+  margin-bottom: 80px;
   @media only screen and (max-width: 999px) {
     padding: 10px 40px;
+    margin-bottom: 0px;
   }
 
   &__title {

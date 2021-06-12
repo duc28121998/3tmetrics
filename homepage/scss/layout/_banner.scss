@@ -6,7 +6,7 @@
   text-align: center;
   color: white !important;
   background-color: #107dff;
-  padding: 1.3rem 4rem;
+  padding: 0.8rem 6rem;
   display: inline-block;
   transition: color 0.25s linear, border 0.25s linear; //giup hover nhanh hon
   &:hover {
@@ -16,7 +16,7 @@
   &__research {
     min-width: 180px;
     height: 50px;
-    border-radius: 10rem;
+    border-radius: 5px;
     font-size: 15px;
     @media only screen and(max-width: 999px) {
       font-size: 10px;
