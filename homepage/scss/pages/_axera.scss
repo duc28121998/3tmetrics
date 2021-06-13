@@ -16,12 +16,13 @@
 }
 .axera-company {
   margin-top: 30px;
-
+  margin-bottom: 60px;
   &__title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    margin-top: 50px;
     @media only screen and(max-width: 999px) {
       font-size: 1.8rem;
     }
@@ -51,8 +52,8 @@
 }
 
 .axera-content {
-  margin-top: 30px;
-
+  margin-top: 70px;
+  padding-bottom: 50px;
   &__title {
     text-align: center;
     font-size: 25px;
@@ -73,7 +74,7 @@
     }
   }
   &__hr {
-    margin: 40px 150px 40px 150px;
+    margin: 40px 183px 40px 183px;
     height: 2px !important;
   }
 }

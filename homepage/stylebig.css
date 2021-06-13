@@ -1051,11 +1051,11 @@ body {
   }
 }
 .navigation__resources h2 {
-  font-size: 40px;
+  font-size: 3.5rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
   color: white;
-  font-weight: 400;
+  font-weight: 300;
 }
 @media only screen and (max-width: 999px) {
   .navigation__resources h2 {
@@ -1068,7 +1068,7 @@ body {
   text-align: center;
   margin-top: 20px;
   color: white;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 40px;
 }
 @media only screen and (max-width: 999px) {
@@ -1092,7 +1092,8 @@ body {
 }
 
 .axera {
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 @media only screen and (max-width: 999px) {
   .axera__image {
@@ -1180,12 +1181,14 @@ body {
 
 .axera-company {
   margin-top: 30px;
+  margin-bottom: 60px;
 }
 .axera-company__title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   font-weight: 600;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 999px) {
   .axera-company__title {
@@ -1218,7 +1221,8 @@ body {
 }
 
 .axera-content {
-  margin-top: 30px;
+  margin-top: 70px;
+  padding-bottom: 50px;
 }
 .axera-content__title {
   text-align: center;
@@ -1243,7 +1247,7 @@ body {
   }
 }
 .axera-content__hr {
-  margin: 40px 150px 40px 150px;
+  margin: 40px 183px 40px 183px;
   height: 2px !important;
 }
 

@@ -5,11 +5,11 @@
     padding-top: 140px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 3.5rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2rem;
     color: white;
-    font-weight: 400;
+    font-weight: 300;
     @media only screen and(max-width: 999px) {
       font-size: 2rem;
       padding: 0 40px;
@@ -20,7 +20,7 @@
     text-align: center;
     margin-top: 20px;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     padding-bottom: 40px;
     @media only screen and(max-width: 999px) {
       font-size: 1.5rem;
@@ -41,7 +41,8 @@
 }
 
 .axera {
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   &__image {
     @media only screen and(max-width: 999px) {
       padding: 0 45px;
