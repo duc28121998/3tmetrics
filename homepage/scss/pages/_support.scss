@@ -11,6 +11,7 @@ html {
 }
 .library {
   color: $text-color;
+
 }
 img {
   display: block;
@@ -82,10 +83,18 @@ body {
   }
 }
 
+.welcome{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 40px 0px;
+  @media only screen and (max-width: 999px) {
+    padding: 10px 0px;
+  }
+}
 .catelogy {
   &__title {
-    font-size: 2.5rem;
-    font-weight: 500;
+    // font-size: 2.5rem;
+    // font-weight: 500;
   }
   &__text {
     font-size: 1.5rem;
@@ -93,9 +102,5 @@ body {
 
   i {
     font-size: 1.5rem;
-  }
-  &__border-bottom {
-    margin-top: 100px;
-    margin-bottom: 50px;
   }
 }

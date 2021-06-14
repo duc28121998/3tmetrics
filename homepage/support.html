@@ -54,85 +54,85 @@
     <link rel="stylesheet" href="stylebig.css" />
   </head>
   <body>
-      <!-- navbar -->
+    <!-- navbar -->
 
-      <div class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light w-100 h-25 navbar__menu">
-          <div class="container-fluid container">
-            <a class="navbar-brand" href="index.html">
-              <img class="logo" src="./images/privacy/logo.png" alt="logo_HTH" />
-            </a>
-  
-            <label for="nav-mobile-input" class="nav__bars-btn">
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fas"
-                data-icon="bars"
-                class="svg-inline--fa fa-bars fa-w-14"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 h-25 navbar__menu">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="./images/privacy/logo.png" alt="logo_HTH" />
+          </a>
+
+          <label for="nav-mobile-input" class="nav__bars-btn">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="bars"
+              class="svg-inline--fa fa-bars fa-w-14"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 
                 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 
                 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 
                 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 
                 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              ></path>
+            </svg>
+          </label>
+          <input
+            type="checkbox"
+            hidden
+            name=""
+            class="nav__input"
+            id="nav-mobile-input"
+          />
+
+          <label for="nav-mobile-input" class="nav__overlay"></label>
+
+          <div class="nav__mobile">
+            <label for="nav-mobile-input" class="nav__mobile-close">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="far"
+                data-icon="times-circle"
+                class="svg-inline--fa fa-times-circle fa-w-16"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"
                 ></path>
               </svg>
             </label>
-            <input
-              type="checkbox"
-              hidden
-              name=""
-              class="nav__input"
-              id="nav-mobile-input"
-            />
-  
-            <label for="nav-mobile-input" class="nav__overlay"></label>
-  
-            <div class="nav__mobile">
-              <label for="nav-mobile-input" class="nav__mobile-close">
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="far"
-                  data-icon="times-circle"
-                  class="svg-inline--fa fa-times-circle fa-w-16"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
+            <ul class="nav__mobile-list">
+              <li>
+                <a class="nav__mobile-link nav-link__version" href="index.html"
+                  >HOMEPAGE</a
                 >
-                  <path
-                    fill="currentColor"
-                    d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"
-                  ></path>
-                </svg>
-              </label>
-              <ul class="nav__mobile-list">
-                <li>
-                  <a class="nav__mobile-link nav-link__version" href="index.html"
-                    >HOMEPAGE</a
-                  >
-                </li>
-                <li>
-                  <a class="nav__mobile-link" href="#">SERVICE</a>
-                </li>
-                <li>
-                  <a class="nav__mobile-link" href="ecommerce.html">E-COMMERCE</a>
-                </li>
-                <li>
-                  <a class="nav__mobile-link" href="resources.html">RESOURCES</a>
-                </li>
-                <li>
-                  <a class="nav__mobile-link" href="demo.html">Demo Version</a>
-                </li>
-              </ul>
-            </div>
-            <!-- <button
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="#">SERVICE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="ecommerce.html">E-COMMERCE</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="resources.html">RESOURCES</a>
+              </li>
+              <li>
+                <a class="nav__mobile-link" href="demo.html">Demo Version</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -143,49 +143,49 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button> -->
-            <div
-              class="collapse navbar-collapse"
-              id="navbarSupportedContent"
-              style="flex-grow: initial"
-            >
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link nav-link__version" href="index.html"
-                    >HOMEPAGE</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link__link" aria-current="page" href="#"
-                    >SERVICE</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link__link" href="ecommerce.html"
-                    >E-COMMERCE</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link__link" href="resources.html"
-                    >RESOURCES</a
-                  >
-                </li>
-                <li class="nav-item nav">
-                  <a class="nav-link nav-link__link" href="demo.html"
-                    >DEMO VERSION</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="flex-grow: initial"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-link__version" href="index.html"
+                  >HOMEPAGE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" aria-current="page" href="#"
+                  >SERVICE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" href="ecommerce.html"
+                  >E-COMMERCE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__link" href="resources.html"
+                  >RESOURCES</a
+                >
+              </li>
+              <li class="nav-item nav">
+                <a class="nav-link nav-link__link" href="demo.html"
+                  >DEMO VERSION</a
+                >
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
-      <!-- end navbar -->
-    <div class="container" style="margin-top: 270px">
+        </div>
+      </nav>
+    </div>
+    <!-- end navbar -->
+    <div class="container" style="margin-top: 150px">
       <div class="row">
         <div class="col-sm-3" style="border-right: 5px solid #ecf4f9">
-          <h3 class="catelogy__title library">3TMETRICS</h3>
-          <h4 class="catelogy__title">Welcome</h4>
-          <h3 class="catelogy__title library">JAVASCRIPT LIBRARY</h3>
+          <h3 class="library">3TMETRICS</h3>
+          <h4 class="welcome">Welcome</h4>
+          <h3 class="library">JAVASCRIPT LIBRARY</h3>
           <ul class="nav nav-pills flex-column catelogy__text">
             <li class="nav-item">
               <a class="nav-link" style="color: black" href="#">Introduce</a>
@@ -200,7 +200,7 @@
               <a class="nav-link" style="color: black" href="#">Ultilities</a>
             </li>
           </ul>
-          <h3 class="catelogy__title library">JAVASCRIPT LIBRARY</h3>
+          <h3 class="library">JAVASCRIPT LIBRARY</h3>
           <ul class="nav nav-pills flex-column catelogy__text">
             <li class="nav-item">
               <a class="nav-link" style="color: black" href="#">Introduce</a>
@@ -221,6 +221,8 @@
           <!-- welcome 1  -->
 
           <div class="container text-justify">
+            <h3 class="library" style="float: right">3TMETRICS</h3>
+            <br />
             <h3 class="catelogy__title">Welcome</h3>
             <p class="catelogy__text">
               Sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -228,6 +230,8 @@
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
               nostrud exercitation ullamco.
             </p>
+            <hr class="catelogy__border-bottom" />
+
             <br />
             <h3 class="catelogy__title">Introduce Library</h3>
             <br />
@@ -288,6 +292,7 @@
                 </p>
               </div>
             </div>
+            <hr class="catelogy__border-bottom" />
           </div>
           <!-- end welcome 1  -->
           <div class="container text-justify">
@@ -534,205 +539,205 @@
         </section>
       </div>
     </section>
-       <!-- FOOTER  -->
+    <!-- FOOTER  -->
 
-       <div class="footer">
-        <div class="container">
-          <div class="row" style="margin-top: 50px">
-            <div class="col-4 footer__mobie">
-              <h2 class="footer__title">Chuyên gia phân tích</h2>
-              <div class="row" style="margin-bottom: 10px">
-                <div class="col-5 footer__image">
-                  <img src="./images/footer/1.png" alt="" />
-                </div>
-                <div class="col-7 text-left footer__list">
-                  <p class="footer__content">
-                    Lorem ipsum, dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <p>Feb-55h,2020</p>
-                </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row" style="margin-top: 50px">
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia phân tích</h2>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/1.png" alt="" />
               </div>
-              <div class="row" style="margin-bottom: 10px">
-                <div class="col-5 footer__image">
-                  <img src="./images/footer/2.png" alt="" />
-                </div>
-                <div class="col-7 text-left footer__list">
-                  <p class="footer__content">
-                    Lorem ipsum, dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <p>Feb-55h,2020</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 footer__image">
-                  <img src="./images/footer/3.png" alt="" />
-                </div>
-                <div class="col-7 text-left footer__list">
-                  <p class="footer__content">
-                    Lorem ipsum, dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <p>Feb-55h,2020</p>
-                </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
               </div>
             </div>
-            <div class="col-4 footer__mobie">
-              <h2 class="footer__title">Chuyên gia chuyên ngành</h2>
-              <div class="row" style="margin-bottom: 10px">
-                <div class="col-5 footer__image">
-                  <img src="./images/footer/1.png" alt="" />
-                </div>
-                <div class="col-7 text-left footer__list">
-                  <p class="footer__content">
-                    Lorem ipsum, dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <p>Feb-55h,2020</p>
-                </div>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/2.png" alt="" />
               </div>
-              <div class="row" style="margin-bottom: 10px">
-                <div class="col-5 footer__image">
-                  <img src="./images/footer/2.png" alt="" />
-                </div>
-                <div class="col-7 text-left footer__list">
-                  <p class="footer__content">
-                    Lorem ipsum, dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <p>Feb-55h,2020</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 footer__image">
-                  <img src="./images/footer/3.png" alt="" />
-                </div>
-                <div class="col-7 text-left footer__list">
-                  <p class="footer__content">
-                    Lorem ipsum, dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <p>Feb-55h,2020</p>
-                </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
               </div>
             </div>
-            <div class="col-4 footer__mobie">
-              <h2 class="footer__title">Chuyên mục liên quan</h2>
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">Website cho doanh nghiệp</div>
-                <div class="col-3 footer__number">
-                  <p>35</p>
-                </div>
+            <div class="row">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/3.png" alt="" />
               </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">Facebook Marketing</div>
-                <div class="col-3 footer__number">
-                  <p>35</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">Google Marketing</div>
-                <div class="col-3 footer__number">
-                  <p>35</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">
-                  SEO - Tối ưu hóa công cụ tìm kiếm
-                </div>
-                <div class="col-3 footer__number">
-                  <p>25</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">Digital Performace Marketing</div>
-                <div class="col-3 footer__number">
-                  <p>55</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">Thương mại điện tử</div>
-                <div class="col-3 footer__number">
-                  <p>45</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">Hệ thống Affiliate</div>
-                <div class="col-3 footer__number">
-                  <p>15</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">
-                  CRM - Quản trị quan hệ khách hàng
-                </div>
-                <div class="col-3 footer__number">
-                  <p>55</p>
-                </div>
-              </div>
-  
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">CX - Trải nghiệm khách hàng</div>
-                <div class="col-3 footer__number">
-                  <p>25</p>
-                </div>
-              </div>
-              <div class="row footer__listtwo">
-                <div class="col-9 footer__name">
-                  CJM - Bản đồ hành trình khách hàng
-                </div>
-                <div class="col-3 footer__number">
-                  <p>25</p>
-                </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
               </div>
             </div>
-            <hr class="footer__hr" />
           </div>
-          <div class="row">
-            <div class="col-xl-2 col-12">
-              <img class="footer__logo" src="images/privacy/logo.png" alt="" />
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên gia chuyên ngành</h2>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/1.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
             </div>
-            <div class="col-xl-6 col-12 footer__nameend">
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, <br />
-                quisquam accusantium impedit, aperiam dolor dignissimos aspernatur
-                quasi <br />beatae quas numquam officia ratione, deserunt minima
-                vitae nihil illum rem natus ab!
-              </h4>
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/2.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
             </div>
-  
-            <div class="col-xl-4 col-12 footer__nameend">
-              <h3>Follow Us :</h3>
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
+            <div class="row">
+              <div class="col-5 footer__image">
+                <img src="./images/footer/3.png" alt="" />
+              </div>
+              <div class="col-7 text-left footer__list">
+                <p class="footer__content">
+                  Lorem ipsum, dolor sit amet <br />consectetur adipisicing
+                  elit.
+                </p>
+                <p>Feb-55h,2020</p>
+              </div>
             </div>
+          </div>
+          <div class="col-4 footer__mobie">
+            <h2 class="footer__title">Chuyên mục liên quan</h2>
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Website cho doanh nghiệp</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Facebook Marketing</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Google Marketing</div>
+              <div class="col-3 footer__number">
+                <p>35</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                SEO - Tối ưu hóa công cụ tìm kiếm
+              </div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Digital Performace Marketing</div>
+              <div class="col-3 footer__number">
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Thương mại điện tử</div>
+              <div class="col-3 footer__number">
+                <p>45</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">Hệ thống Affiliate</div>
+              <div class="col-3 footer__number">
+                <p>15</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                CRM - Quản trị quan hệ khách hàng
+              </div>
+              <div class="col-3 footer__number">
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">CX - Trải nghiệm khách hàng</div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+            <div class="row footer__listtwo">
+              <div class="col-9 footer__name">
+                CJM - Bản đồ hành trình khách hàng
+              </div>
+              <div class="col-3 footer__number">
+                <p>25</p>
+              </div>
+            </div>
+          </div>
+          <hr class="footer__hr" />
+        </div>
+        <div class="row">
+          <div class="col-xl-2 col-12">
+            <img class="footer__logo" src="images/privacy/logo.png" alt="" />
+          </div>
+          <div class="col-xl-6 col-12 footer__nameend">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit, <br />
+              quisquam accusantium impedit, aperiam dolor dignissimos aspernatur
+              quasi <br />beatae quas numquam officia ratione, deserunt minima
+              vitae nihil illum rem natus ab!
+            </h4>
+          </div>
+
+          <div class="col-xl-4 col-12 footer__nameend">
+            <h3>Follow Us :</h3>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
           </div>
         </div>
-        <div class="end">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-8 col-12">Designed by HTH Digital 2020</div>
-              <div class="col-xl-4 col-12">
-                <a href="term.html" class="end__list">Term</a>
-                <a href="privacy.html" class="end__list">Privacy</a>
-                <a href="support.html" class="end__list">Support</a>
-              </div>
+      </div>
+      <div class="end">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-12">Designed by HTH Digital 2020</div>
+            <div class="col-xl-4 col-12">
+              <a href="term.html" class="end__list">Term</a>
+              <a href="privacy.html" class="end__list">Privacy</a>
+              <a href="support.html" class="end__list">Support</a>
             </div>
           </div>
         </div>
       </div>
-  
-      <!-- END FOOTER  -->
+    </div>
+
+    <!-- END FOOTER  -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
