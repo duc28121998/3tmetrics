@@ -35,6 +35,16 @@
     <script src="/carousel/js/script.js"></script>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="stylebig.css" />
+    <script>
+      window.onscroll = (e) => {
+        let height = window.scrollY
+        if (height > 50) {
+          $('.navbar').addClass('active')
+        } else {
+          $('.navbar').removeClass('active')
+        }
+      }
+    </script>
   </head>
   <body>
     <!-- navbar -->
@@ -43,7 +53,11 @@
       <nav class="navbar navbar-expand-lg navbar-light w-100 h-25 navbar__menu">
         <div class="container-fluid container">
           <a class="navbar-brand" href="index.html">
-            <img class="logo" src="./images/privacy/logo.png" alt="logo_HTH" />
+            <img
+              class="contact_blue logo"
+              src="./images/logo_blue.png"
+              alt=""
+            />
           </a>
 
           <label for="nav-mobile-input" class="nav__bars-btn">

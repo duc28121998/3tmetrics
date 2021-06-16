@@ -198,7 +198,6 @@ body {
   }
 }
 .navigation {
-  padding-top: 200px;
   background-color: #107dff;
 }
 .navigation h2 {
@@ -358,12 +357,14 @@ body {
   }
 }
 .navigation {
-  padding-top: 200px;
+  margin-top: 135px;
+  padding-top: 50px;
   background-color: #107dff;
 }
 @media only screen and (max-width: 1190px) {
   .navigation {
-    padding-top: 140px;
+    padding-top: 50px;
+    margin-top: 110px;
   }
 }
 .navigation h2 {
@@ -840,7 +841,7 @@ body {
 }
 
 .main {
-  margin-top: 40px;
+  margin-top: 120px;
 }
 @media only screen and (max-width: 999px) {
   .main {
@@ -1051,12 +1052,15 @@ body {
 }
 
 .navigation__resources {
-  padding-top: 150px;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background-color: #107dff;
 }
 @media only screen and (max-width: 999px) {
   .navigation__resources {
-    padding-top: 140px;
+    padding-top: 30px;
+    margin-top: 120px;
   }
 }
 .navigation__resources h2 {
@@ -1662,18 +1666,44 @@ body {
 }
 
 .fixed-top {
-  background-image: url("./images/z.PNG");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.navbar {
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.130982);
-}
-.navbar__menu {
+.navbar.active {
   background-image: url("./images/z.PNG");
   background-repeat: no-repeat;
   background-size: cover;
+  color: white !important;
+}
+.navbar.active .contact_blue {
+  background-color: white;
+  outline: none;
+  border-radius: 2px;
+}
+.navbar.active .nav-link__link {
+  font-size: 1.6rem;
+  color: white !important;
+  transition: color 0.25s linear, border 0.25s linear;
+}
+.navbar.active .nav-link__link:hover {
+  color: black !important;
+}
+.navbar.active .nav-link__version {
+  margin-right: 10px !important;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 14px;
+  color: black !important;
+  background-color: white;
+  border-radius: 30px;
+  padding-top: 10px;
+  transition: color 0.3s linear, border 0.3s linear;
+}
+.navbar.active .nav-link__version:hover {
+  color: white !important;
+  background-color: #107dff;
 }
 
 .nav-item {
@@ -1682,7 +1712,7 @@ body {
 
 .nav-link__link {
   font-size: 1.6rem;
-  color: white !important;
+  color: #107dff !important;
   transition: color 0.25s linear, border 0.25s linear;
 }
 .nav-link__link:hover {
@@ -1694,8 +1724,8 @@ body {
   width: 150px;
   font-weight: bold;
   font-size: 14px;
-  color: black !important;
-  background-color: white;
+  color: white !important;
+  background-color: #107dff;
   border-radius: 30px;
   padding-top: 10px;
   transition: color 0.3s linear, border 0.3s linear;
