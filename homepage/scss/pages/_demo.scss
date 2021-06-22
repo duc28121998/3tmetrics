@@ -188,11 +188,26 @@
     }
   }
 }
+.chiendichleft {
+  padding-left: 57px;
+
+  @media only screen and (max-width: 999px) {
+    padding-left: 0px;
+  }
+}
 .chiendichright {
   padding-top: 140px;
   padding-left: 50px;
   @media only screen and (max-width: 999px) {
     padding-top: 0;
     padding-left: 0;
+  }
+}
+.demo_image {
+  img {
+    padding: 50px 70px 30px 90px;
+    @media only screen and (max-width: 999px) {
+      padding: 30px;
+    }
   }
 }
